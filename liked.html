@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Любимые треки</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="header_nav">
+            <div class="header_media">
+                <img src="img/logo_main.png" alt="">
+                <form class="search_form" action="" method="post">
+                    <input type="text" placeholder="Поиск">
+                </form>
+                <button class="header_burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+            <div class="header_media_menu">
+                <div class="top_items_right">
+                    <img src="img/avatar_mask.png" alt="">
+                    <a href="account.html">Имя_Пользователя</a>
+                </div>
+                <div class="header_media_menu__bottom">
+                    <div class="header_menu">
+                        <div class="header_title">
+                            <h1>МЕНЮ</h1>
+                        </div>
+                        <ul class="menu_item">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="my_library.html">Моя медиатека</a></li>
+                            <li><a href="liked.html">Любимые треки</a></li>
+                            <li><a href="history.html">История</a></li>
+                            <li><a class="menu_item_bottom" href="about.html">О сервисе</a></li>
+                            <li><a class="menu_item_bottom" href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="header_playlist">
+                        <div class="header_title header_playlist_top">
+                            <h1>ПЛЕЙЛИСТЫ</h1>
+                            <a href="create_playlist.html"><img src="img/plus.png" alt=""></a>
+                        </div>
+                        <div class="header_playlist_bottom">
+                            <div class="playlist_mini" >
+                                <img src="img/playlist_mini_mask.png" alt="">
+                                <p>Плейлист</p>
+                            </div>
+                            <div class="playlist_mini">
+                                <img src="img/playlist_mini_mask.png" alt="">
+                                <p>Плейлист</p>
+                            </div>
+                            <div class="playlist_mini">
+                                <img src="img/playlist_mini_mask.png" alt="">
+                                <p>Плейлист</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_top">
+                <div class="header_logo">
+                    <img src="img/logo_main.png" alt="">
+                </div>
+                <div class="header_menu">
+                    <div class="header_title">
+                        <h1>МЕНЮ</h1>
+                    </div>
+                    <ul class="menu_item">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="my_library.html">Моя медиатека</a></li>
+                        <li><a href="liked.html">Любимые треки</a></li>
+                        <li><a href="history.html">История</a></li>
+                    </ul>
+                </div>
+                <div class="header_playlist">
+                    <div class="header_title header_playlist_top">
+                        <h1>ПЛЕЙЛИСТЫ</h1>
+                        <a href="create_playlist.html"><img src="img/plus.png" alt=""></a>
+                    </div>
+                    <div class="header_playlist_bottom">
+                        <div class="playlist_mini" >
+                            <img src="img/playlist_mini_mask.png" alt="">
+                            <p>Плейлист</p>
+                        </div>
+                        <div class="playlist_mini">
+                            <img src="img/playlist_mini_mask.png" alt="">
+                            <p>Плейлист</p>
+                        </div>
+                        <div class="playlist_mini">
+                            <img src="img/playlist_mini_mask.png" alt="">
+                            <p>Плейлист</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <a href="about.html">О сервисе</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="top_items">
+                <div class="top_items_left">
+                    <form class="search_form" action="" method="post">
+                        <input type="text" placeholder="Поиск">
+                    </form>
+                </div>
+                <div class="top_items_right">
+                    <img src="img/avatar_mask.png" alt="">
+                    <a href="account.html">Имя_Пользователя</a>
+                </div>
+            </div>
+            <div class="section_title liked_songs_title">
+                <h1 class="">Любимые треки</h1>
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="19" cy="19" r="18.5" stroke="white"/>
+                    <path d="M25 18.5L16 13V24L25 18.5Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+            <div>
+                <div class="song_block">
+                    <div class="song_block_left">
+                        <p class="song_number">1</p>
+                        <img src="img/song_mask.png" alt="">
+                        <div class="song_block_left_position">
+                            <p class="song_name">Название трека</p>
+                            <p class="song_author">Автор</p>
+                        </div>
+                    </div>
+                    <div class="song_block_mmiddle">
+                        <a href="">Название альбома</a>
+                    </div>
+                    <div class="song_block_right">
+                        <img src="img/plus.png" alt="">
+                        <img src="img/heart.png" alt="">
+                        <p>00:00</p>
+                    </div>
+                </div>
+                <div class="song_block">
+                    <div class="song_block_left">
+                        <p class="song_number">2</p>
+                        <img src="img/song_mask.png" alt="">
+                        <div class="song_block_left_position">
+                            <p class="song_name">Название трека</p>
+                            <p class="song_author">Автор</p>
+                        </div>
+                    </div>
+                    <div class="song_block_mmiddle">
+                        <a href="">Название альбома</a>
+                    </div>
+                    <div class="song_block_right">
+                        <img src="img/plus.png" alt="">
+                        <img src="img/heart.png" alt="">
+                        <p>00:00</p>
+                    </div>
+                </div>
+                <div class="song_block">
+                    <div class="song_block_left">
+                        <p class="song_number">3</p>
+                        <img src="img/song_mask.png" alt="">
+                        <div class="song_block_left_position">
+                            <p class="song_name">Название трека</p>
+                            <p class="song_author">Автор</p>
+                        </div>
+                    </div>
+                    <div class="song_block_mmiddle">
+                        <a href="">Название альбома</a>
+                    </div>
+                    <div class="song_block_right">
+                        <img src="img/plus.png" alt="">
+                        <img src="img/heart.png" alt="">
+                        <p>00:00</p>
+                    </div>
+                </div>
+                <div class="song_block">
+                    <div class="song_block_left">
+                        <p class="song_number">4</p>
+                        <img src="img/song_mask.png" alt="">
+                        <div class="song_block_left_position">
+                            <p class="song_name">Название трека</p>
+                            <p class="song_author">Автор</p>
+                        </div>
+                    </div>
+                    <div class="song_block_mmiddle">
+                        <a href="">Название альбома</a>
+                    </div>
+                    <div class="song_block_right">
+                        <img src="img/plus.png" alt="">
+                        <img src="img/heart.png" alt="">
+                        <p>00:00</p>
+                    </div>
+                </div>
+                <div class="song_block">
+                    <div class="song_block_left">
+                        <p class="song_number">5</p>
+                        <img src="img/song_mask.png" alt="">
+                        <div class="song_block_left_position">
+                            <p class="song_name">Название трека</p>
+                            <p class="song_author">Автор</p>
+                        </div>
+                    </div>
+                    <div class="song_block_mmiddle">
+                        <a href="">Название альбома</a>
+                    </div>
+                    <div class="song_block_right">
+                        <img src="img/plus.png" alt="">
+                        <img src="img/heart.png" alt="">
+                        <p>00:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="js/hover.js"></script>
+</body>
+</html>
